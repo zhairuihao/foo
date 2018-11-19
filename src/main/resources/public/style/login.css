@@ -1,0 +1,61 @@
+div.logo {
+    width: 140px;
+    margin: 1.2rem auto;
+}
+
+div.logo img {
+    width: 140px;
+    margin: auto;
+}
+
+.login-container > form div {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin: 8px auto;
+}
+
+.login-container > form div input {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    width: 100%;
+    padding: 16px 5px 8px 30px;
+    box-sizing: border-box;
+    outline: none;
+    color: rgba(0,0,0,.87);
+    font-size: .24rem;
+}
+
+.login-container input + label {
+    width: 25px;
+    position: absolute;
+    top: 10px;
+}
+
+.login-container input + label img {
+    width: 100%;
+    top: 0;
+}
+
+.login-container input#password+label
+
+.login-container .footer.tip{
+    color: #F44336;
+    text-align: center;
+    font-size: .24rem;
+}
+
+.btn-submit {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    width: 80%;
+    margin: 24px auto;
+    border: none;
+    padding: 12px;
+    display: block;
+    font-size: .25rem;
+    color: #fff;
+    background-color: #FF9800;
+    box-shadow: 1px 3px 5px -4px #212121;
+}
