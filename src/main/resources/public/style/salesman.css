@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "Microsoft YaHei";
+    src: url('./msyh.ttc');
+}
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font: .24rem 'Microsoft YaHei', 'Arial', 'Sumsun', 'Helvetica';
+}
+
+ul li {
+    list-style: none;
+}
+
+.banner-container {
+    background-color: #FF9800;
+    padding: 16px;
+}
+
+.banner-container .back {
+    width: 25px;
+}
+
+.banner-container .back img {
+    width: 100%;
+}
+
+.user-head {
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+
+.user-head img {
+    width: 100%;
+}
+
+.user-info {
+    height: 90px;
+    align-items: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.user-info div {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    align-items: center;
+    vertical-align: baseline;
+}
+
+.profile {
+    height: 100%;
+    padding: 6px 0;
+}
+
+.profile p {
+    margin: 8px;
+    font-size: .34rem;
+    color: white;
+}
+
+.profile .nick {
+    background: white;
+    overflow: hidden;
+    height: 21px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding: 2px 8px;
+    font-size: 13px;
+    line-height: 18px;
+    margin-left: 8px;
+}
+
+.nick img {
+    height: 18px;
+}
+
+.nick span {
+    line-height: 18px;
+    color: #FF9800;
+}
+
+.search-container {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    margin: 16px auto;
+}
+
+.search-container .search-icon {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.search-container .search-icon img {
+    width: 100%;
+}
+
+.search-container input {
+    border: none;
+    background-color: #EEEEEE;
+    width: 100%;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    padding: 8px 16px 8px 40px;
+    font-size: .24rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.tab-title {
+    margin: 0 0 8px;
+    padding: 3px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+
+.tab-title li {
+    float: left;
+    list-style: none;
+    font-weight: bold;
+    margin: 0 8px;
+    font-size: .29rem;
+    padding: 8px 8px;
+}
+
+.tab-title .active {
+    box-shadow: 0 17px 0px -14px #FF9800;
+}
+
+.tab-content {
+    margin: 16px;
+}
+
+.tab-content li {
+    overflow: hidden;
+    padding: 8px 0;
+    width: 100%;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.tab-content .left {
+    width: 50px;
+    height: 50px;
+    float: left;
+    text-align: center;
+}
+
+.tab-content .left img {
+    width: 100%;
+}
+
+.tab-content .middle {
+    float: left;
+    margin-left: 8px;
+    max-width: calc(100% - 95px);
+}
+
+.tab-content .middle h2 {
+    color: #FF9800;
+    font-size: .30rem;
+    font-weight: bold;
+}
+
+.tab-content .middle .trace-info {
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+.tab-content .middle .trace-info div {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    float: right;
+}
+
+.tab-content .middle .trace-info span {
+    /*display: block;*/
+    /*max-width: calc(100% - 23px);*/
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
+    /*float: left;*/
+    /*overflow: hidden;*/
+}
+
+.tab-content .middle .trace-info div img {
+    width: 100%;
+}
+
+.tab-content .right:before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    background-image: url('../images/browser.png');
+    height: 20px;
+    background-size: contain;
+    top: 2px;
+    left: 0;
+}
+
+.tab-content .right {
+    float: right;
+    position: relative;
+    line-height: .45rem;
+    padding-left: 20px;
+}
