@@ -16,13 +16,14 @@ div.logo img {
 }
 
 .login-container > form div input {
+    display: block;
     border: none;
     border-bottom: 1px solid #BDBDBD;
     width: 100%;
     padding: 16px 5px 8px 30px;
     box-sizing: border-box;
     outline: none;
-    color: rgba(0,0,0,.87);
+    color: rgba(0, 0, 0, .87);
     font-size: .24rem;
 }
 
@@ -37,9 +38,18 @@ div.logo img {
     top: 0;
 }
 
-.login-container input#password+label
+.login-container .eye-check-dark {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+}
 
-.login-container .footer.tip{
+div.eye-check-dark img {
+    width: 100%;
+}
+
+.login-container .footer.tip {
     color: #F44336;
     text-align: center;
     font-size: .24rem;
