@@ -8,14 +8,14 @@ div.logo img {
     margin: auto;
 }
 
-.login-container > form div {
+.form-container > form div {
     position: relative;
     overflow: hidden;
     width: 80%;
     margin: 8px auto;
 }
 
-.login-container > form div input {
+.form-container > form div input {
     display: block;
     border: none;
     border-bottom: 1px solid #BDBDBD;
@@ -27,18 +27,18 @@ div.logo img {
     font-size: .24rem;
 }
 
-.login-container input + label {
+.form-container input + label {
     width: 25px;
     position: absolute;
     top: 10px;
 }
 
-.login-container input + label img {
+.form-container input + label img {
     width: 100%;
     top: 0;
 }
 
-.login-container .eye-check-dark {
+.form-container .eye-check-dark {
     position: absolute;
     right: 0;
     top: 0;
@@ -49,7 +49,7 @@ div.eye-check-dark img {
     width: 100%;
 }
 
-.login-container .footer.tip {
+.form-container .footer.tip {
     color: #F44336;
     text-align: center;
     font-size: .24rem;

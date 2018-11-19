@@ -6,40 +6,43 @@
     <meta name="viewport"
           content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
     <script type="text/javascript" src="./rem/rem.js"></script>
-    <link type="text/css" rel="stylesheet" href="./style/user-center.css">
+    <link type="text/css" rel="stylesheet" href="./style/update-account.css">
     <script type="text/javascript" src="./script/user-center.js"></script>
 </head>
 <body>
 <div>
     <div class="title">
         <div class="left"><img src="images/back.png"></div>
-        <div class="middle">个人中心</div>
-        <div class="right">确定</div>
+        <div class="middle">修改账号</div>
     </div>
-    <div class="user-container">
-        <div class="left-side">
-            <input type="text" value="谢" name="username" placeholder="谢">
-            <ul class="auto-complete-container">
-                <li>1859645589</li>
-                <li>1859645581</li>
-                <li>1859645582</li>
-            </ul>
-        </div>
-        <div class="right-side">
-            <img src="images/头像.png">
-        </div>
+    <div class="user-head">
+        <img src="images/head.png">
     </div>
-    <div class="qrcode-container">
-        <h1>微信二维码: </h1>
-        <div class="qrcode">
-            <img src="images/头像.png">
+    <div class="form-container">
+        <form action="#">
+            <div>
+                <label for="username">姓名: </label>
+                <input id="username" type="text" name="username">
+            </div>
+            <div>
+                <label for="phone">电话: </label>
+                <input id="phone" type="number" name="phone">
+            </div>
+            <div>
+                <label for="password">密码: </label>
+                <input id="password" type="password" name="password">
+                <div id="togglePwd" class="eye-check-dark"><img src="images/eye-check-dark.png"></div>
+            </div>
+        </form>
+        <div class="qrcode-container">
+            <h1>微信二维码: </h1>
+            <div class="qrcode">
+                <img src="images/head.png">
+            </div>
         </div>
-        <div class="referral-container">
-            <label for="referralUrl">推广链接:</label>
-            <input id="referralUrl" type="text" name="referralUrl">
-            <button class="generateBtn">重新生成</button>
-        </div>
+        <button id="btnSubmit" class="btn-submit">确定</button>
     </div>
+
 </div>
 </body>
 </html>
