@@ -17,18 +17,21 @@
     <div class="form-container">
         <form action="#">
             <div>
-                <input id="username" type="number" name="username">
+                <input id="username" type="number" name="user_username">
                 <label for="username"><img src="images/user.png"></label>
             </div>
             <div>
-                <input id="password" type="password" name="password">
+                <input id="password" type="password" name="user_password">
                 <label for="password"><img src="images/password.png"></label>
                 <div id="togglePwd" class="eye-check-dark"><img src="images/eye-check-dark.png"></div>
             </div>
             <div class="footer tip">密码输入错误!</div>
-            <button id="btnSubmit" class="btn-submit">登陆</button>
+            <button id="btnSubmit" class="btn-submit" onclick="login()">登陆</button>
         </form>
     </div>
 </div>
 </body>
+<script typet="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script typet="text/javascript" src="./js/index.js"></script>
+<script typet="text/javascript" src="./js/login.js"></script>
 </html>
